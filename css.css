@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: bisque;
+}
+.container {
+  margin: 70px auto;
+}
+.slider {
+  max-width: 600px;
+  overflow: hidden;
+  margin: 30px auto;
+  border-radius: 20px;
+  border: 2px solid #000;
+}
+
+.sliderLine {
+  display: flex;
+  transition: all ease 1s;
+}
+h1 {
+  text-align: center;
+  font-size: 60px;
+}
+.button-all {
+  display: flex;
+  gap: 80px;
+  justify-content: center;
+}
+
+.button {
+  position: relative;
+  border: 0;
+  background: antiquewhite;
+  color: black;
+  font-weight: 500;
+  font-size: 25px;
+  padding: 15px 20px;
+  transition-property: all;
+}
+
+
+
+.button-next {
+  border-right: 3px solid rgba(138, 125, 56, 0.7);
+  border-bottom: 4px solid rgba(138, 125, 56, 0.7);
+  border-radius: 20px 0;
+}
+
+.button-previous {
+  transition-duration: 100ms;
+  border-radius: 0 20px;
+  border-left: 3px solid rgba(138, 125, 56, 0.7);
+  border-bottom: 4px solid rgba(138, 125, 56, 0.7);
+}
+
+.button-next:hover {
+  border-right: 1px solid rgba(138, 125, 56, 0.7);
+  border-bottom: 2px solid rgba(138, 125, 56, 0.7);
+  background: rgba(228, 207, 179, 0.552);
+}
+
+.button-previous:hover {
+  border-left: 1px solid rgba(138, 125, 56, 0.7);
+  border-bottom: 2px solid rgba(138, 125, 56, 0.7);
+  background: rgba(228, 207, 179, 0.552);
+}
+
+.button:active{
+border: 0;
+}
