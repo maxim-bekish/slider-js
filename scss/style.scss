@@ -1,0 +1,75 @@
+$border-color: rgba(138, 125, 56, 0.7);
+$background__color: rgba(228, 207, 179, 0.552);
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: rgb(255, 228, 196);
+}
+
+h1 {
+  text-align: center;
+  font-size: 60px;
+}
+
+.container {
+  margin: 70px auto;
+
+  .slider {
+    max-width: 600px;
+    overflow: hidden;
+    margin: 30px auto;
+    border-radius: 40px;
+    border: 2px solid black;
+
+    .sliderLine {
+      display: flex;
+      transition: all ease 1s;
+    }
+  }
+}
+.button-all {
+  display: flex;
+  gap: 80px;
+  justify-content: center;
+}
+
+.button {
+  width: 140px;
+  height: 65px;
+  border: 0;
+  background: rgb(250, 235, 215);
+  font-weight: 500;
+  font-size: 25px;
+  transition-property: all;
+  transition-duration: 100ms;
+  border-bottom: 4px solid $border-color;
+
+  &-next {
+    border-right: 3px solid $border-color;
+    border-radius: 20px 0;
+
+    &:hover {
+      border-right: 1px solid $border-color;
+    }
+  }
+
+  &-previous {
+    border-radius: 0 20px;
+    border-left: 3px solid $border-color;
+
+    &:hover {
+      border-left: 1px solid $border-color;
+    }
+  }
+  &:hover {
+    border-bottom: 2px solid $border-color;
+    background: $background__color;
+  }
+  &:active {
+    border: 0;
+  }
+}
