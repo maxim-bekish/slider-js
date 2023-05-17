@@ -7,10 +7,11 @@ $background__color: rgba(228, 207, 179, 0.552);
 }
 
 body {
-  background: rgb(255, 228, 196);
+  background: rgb(167 166 164 / 63%);
 }
 
 h1 {
+  font-family: "Oswald";
   text-align: center;
   font-size: 60px;
 }
@@ -38,6 +39,7 @@ h1 {
 }
 
 .button {
+  font-family: 'Oswald';
   width: 140px;
   height: 65px;
   border: 0;
