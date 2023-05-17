@@ -36,12 +36,13 @@ h1 {
 .button {
   font-family: "Oswald";
   width: 140px;
+  text-transform: uppercase;
   height: 65px;
   border: 0;
   background: rgba(160, 160, 160, 0.33);
   font-weight: 500;
   line-height: 0;
-  font-size: 50px;
+  font-size: 30px;
   transition-property: all;
   transition-duration: 100ms;
   border-bottom: 4px solid rgba(110, 73, 111, 0.38);
