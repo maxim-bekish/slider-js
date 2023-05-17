@@ -1,5 +1,5 @@
-$border-color: rgba(138, 125, 56, 0.7);
-$background__color: rgba(228, 207, 179, 0.552);
+$border-color: rgb(110 73 111 / 38%);
+$background__color: rgb(149 115 155 / 32%);
 
 * {
   margin: 0;
@@ -8,22 +8,22 @@ $background__color: rgba(228, 207, 179, 0.552);
 
 body {
   background: rgb(167 166 164 / 63%);
+  margin-top: 100px;
 }
 
 h1 {
   font-family: "Oswald";
   text-align: center;
   font-size: 60px;
+  line-height: 57px;
 }
 
 .container {
-  margin: 70px auto;
-
   .slider {
     max-width: 600px;
     overflow: hidden;
     margin: 30px auto;
-    border-radius: 40px;
+    border-radius: 10px;
     border: 2px solid black;
 
     .sliderLine {
@@ -39,13 +39,14 @@ h1 {
 }
 
 .button {
-  font-family: 'Oswald';
+  font-family: "Oswald";
   width: 140px;
   height: 65px;
   border: 0;
-  background: rgb(250, 235, 215);
+  background: rgb(160 160 160 / 33%);
   font-weight: 500;
-  font-size: 25px;
+  line-height: 0;
+  font-size: 50px;
   transition-property: all;
   transition-duration: 100ms;
   border-bottom: 4px solid $border-color;
@@ -75,3 +76,5 @@ h1 {
     border: 0;
   }
 }
+
+// sass --watch scss/style.scss:css/style.css

@@ -5,22 +5,21 @@
 
 body {
   background: rgba(167, 166, 164, 0.63);
+  margin-top: 100px;
 }
 
 h1 {
   font-family: "Oswald";
   text-align: center;
   font-size: 60px;
+  line-height: 57px;
 }
 
-.container {
-  margin: 70px auto;
-}
 .container .slider {
   max-width: 600px;
   overflow: hidden;
   margin: 30px auto;
-  border-radius: 40px;
+  border-radius: 10px;
   border: 2px solid black;
 }
 .container .slider .sliderLine {
@@ -39,30 +38,31 @@ h1 {
   width: 140px;
   height: 65px;
   border: 0;
-  background: rgb(250, 235, 215);
+  background: rgba(160, 160, 160, 0.33);
   font-weight: 500;
-  font-size: 25px;
+  line-height: 0;
+  font-size: 50px;
   transition-property: all;
   transition-duration: 100ms;
-  border-bottom: 4px solid rgba(138, 125, 56, 0.7);
+  border-bottom: 4px solid rgba(110, 73, 111, 0.38);
 }
 .button-next {
-  border-right: 3px solid rgba(138, 125, 56, 0.7);
+  border-right: 3px solid rgba(110, 73, 111, 0.38);
   border-radius: 20px 0;
 }
 .button-next:hover {
-  border-right: 1px solid rgba(138, 125, 56, 0.7);
+  border-right: 1px solid rgba(110, 73, 111, 0.38);
 }
 .button-previous {
   border-radius: 0 20px;
-  border-left: 3px solid rgba(138, 125, 56, 0.7);
+  border-left: 3px solid rgba(110, 73, 111, 0.38);
 }
 .button-previous:hover {
-  border-left: 1px solid rgba(138, 125, 56, 0.7);
+  border-left: 1px solid rgba(110, 73, 111, 0.38);
 }
 .button:hover {
-  border-bottom: 2px solid rgba(138, 125, 56, 0.7);
-  background: rgba(228, 207, 179, 0.552);
+  border-bottom: 2px solid rgba(110, 73, 111, 0.38);
+  background: rgba(149, 115, 155, 0.32);
 }
 .button:active {
   border: 0;
